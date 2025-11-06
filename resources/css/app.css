@@ -1,0 +1,17 @@
+/* Import Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+@layer base {
+  body {
+    font-family: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
+/* Purge / Content Paths untuk Tailwind 3+ */
+@layer utilities {
+  /* Tidak perlu @source, Tailwind 3+ menggunakan content di tailwind.config.js */
+}
